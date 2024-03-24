@@ -1,25 +1,25 @@
 # Software Architecture and Design
 
 <details>
-<summary>🚀 Lab 01 - UML Diagrams for ATM application</summary>
+<summary>🚀 Tuần 2</summary>
 <details>
     <summary>⭐ Use case diagram</summary>
 
-![Use case diagram](./Lab01/UseCase.bmp 'Use case diagram')
+![Use case diagram](./UseCase.bmp 'Use case diagram')
 
 </details>
 
 <details>
     <summary>⭐ Class diagram</summary>
 
-![Class diagram](./Lab01/ClassDiagram.bmp 'Class diagram')
+![Class diagram](./ClassDiagram.bmp 'Class diagram')
 
 </details>
 
 <details>
     <summary>⭐ Object diagram</summary>
 
-![Class diagram](./Lab01/ObjectDiagram.bmp 'Class diagram')
+![Class diagram](./ObjectDiagram.bmp 'Class diagram')
 
 </details>
 </details>
