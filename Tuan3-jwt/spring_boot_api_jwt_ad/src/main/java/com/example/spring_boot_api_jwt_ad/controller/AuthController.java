@@ -36,6 +36,8 @@ public class AuthController {
     @Autowired
     private TokenService tokenService;
 
+
+
     @PostMapping("/register")
     public User register(@RequestBody User user){
         user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
@@ -74,7 +76,6 @@ public class AuthController {
     }
 
     @GetMapping("/user")
-    @PreAuthorize("hasAnyAuthority('USER_READ')")
     public Object getForObjectUser() {
         String apiUrl = "http://localhost:8084/rest/user";
         return restTemplate.getForObject(apiUrl, Object.class);

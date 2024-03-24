@@ -22,12 +22,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .disable()
                 .authorizeRequests()
                 .antMatchers("/register")
-
                 .permitAll();
 
         http.addFilterBefore(jwtRequestFilter,
                 UsernamePasswordAuthenticationFilter.class)
                 .csrf().disable();
+        // role USER_READ access /hello
+
     }
 
 
